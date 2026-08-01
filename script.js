@@ -37,7 +37,8 @@ async function getWeather(){
 
         if(!response.ok){
 
-            throw new Error("City Not Found");
+            // throw new Error("City Not Found");
+             throw new Error(`HTTP Error: ${response.status}`);
         }
 
         const data = await response.json();
