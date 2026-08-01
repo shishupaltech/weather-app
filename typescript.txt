@@ -1,0 +1,9 @@
+// NOTE - Installing the typescript
+npm install -g typescript
+
+// NOTE - Check Version
+
+tsc --version
+//REVIEW - Compile the tsc file.
+
+tsc index.ts
