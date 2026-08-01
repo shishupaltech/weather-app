@@ -28,7 +28,7 @@ async function getWeather(){
         return;
     }
 
-    const url = `http://api.weatherapi.com/v1/current.json?key=566a15fd21bf442c9b753012263007&q=${city}&aqi=no`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=566a15fd21bf442c9b753012263007&q=${city}&aqi=no`;
 
     try{
 
